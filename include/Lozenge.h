@@ -7,10 +7,7 @@ private :
     void MakeTopHalfLozengeScheme() const;
     void MakeBotHalfLozengeScheme() const;
 public:
-    Lozenge (int diagonal)
-    {
-        Diagonal = diagonal;
-    }
+    Lozenge (int diagonal);
     void MakeLozengeScheme() const;
 };
 #endif //MAKE_A_LOZENGE_LOZENGE_H

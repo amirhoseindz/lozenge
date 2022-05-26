@@ -1,6 +1,10 @@
 #include "../include/Lozenge.h"
 #include <iostream>
 using namespace std;
+Lozenge :: Lozenge (int diagonal)
+{
+    Diagonal = diagonal;
+}
 void Lozenge :: MakeTopHalfLozengeScheme() const
 {
     for (int i = 0; i < Diagonal / 2; i++)
