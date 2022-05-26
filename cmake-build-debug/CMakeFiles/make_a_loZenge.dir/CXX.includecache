@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/c_lion/make a loZenge/include/Lozenge.h
+
+D:/c_lion/make a loZenge/test/main.cpp
+iostream
+-
+../include/Lozenge.h
+D:/c_lion/make a loZenge/include/Lozenge.h
+
